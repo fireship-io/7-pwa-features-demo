@@ -2,7 +2,7 @@
 
 Seven web-platform features you didn't know existed. 
 
-Watch the full [PWA tutorial](https://fireship.io/pwa-top-features/) on YouTube. 
+Watch the full [PWA tutorial](https://fireship.io/lessons/pwa-top-features/) on YouTube. 
 
 Build a basic [PWA in 100 Seconds](https://youtu.be/sFsRylCQblw)
 
