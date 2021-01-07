@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awesome Web Features</title>
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="manifest" href="manifest.json">
+
+    <script defer src="app/bluetooth.js"></script>
+    <script defer src="app/contact-picker.js"></script>
+    <script defer src="app/device-motion.js"></script>
+    <script defer src="app/file-system.js"></script>
+    <script defer src="app/idle-detection.js"></script>
+    <script defer src="app/sharing.js"></script>
+    <script defer src="app/idle-detection.js"></script>
+</head>
+<body>
+    <!-- <h2>Bluetooth</h2>
+    <button id="ble">Connect Device</button>
+    <p id="motion"></p>
+    <h2>Contact Picker</h2>
+    <button id="contacts">Select Contacts</button>
+    <h2>Idle Detection</h2>
+    <button id="idle">Idle Detection</button> -->
+    <h2>File System</h2>
+    <button id="fs-get">Read File</button>
+    <button id="fs-save">Write File</button>
+    <!-- <h2>Web Share</h2>
+    <button id="share">Share on Twitter</button> -->
+
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('/service-worker.js');
+        }
+    </script>
+    
+</body>
+</html>
